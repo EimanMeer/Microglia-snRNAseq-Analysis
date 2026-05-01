@@ -13,16 +13,6 @@ This project performs a focused single-nucleus RNA-sequencing (snRNA-seq) analys
 
 > *Do distinct microglial transcriptional states in human Alzheimer's disease prefrontal cortex correlate with disease-associated gene expression programs, and can ncRNA-regulated hub genes be identified within these states?*
 
-## Key Findings
-Identified **[N] transcriptionally distinct microglial populations** including homeostatic microglia, disease-associated microglia (DAM), inflammatory, and proliferating states
-**DAM clusters were significantly expanded in AD** compared to controls, consistent with Mathys et al. 2019 and Keren-Shaul et al. 2017
-**[N] genes significantly differentially expressed** between AD and control microglia (MAST test, adj. p < 0.05)
-Top upregulated genes in AD microglia: *TREM2*, *APOE*, *SPP1*, *LPL* (canonical DAM signature)
-Top downregulated genes in AD microglia: *P2RY12*, *CX3CR1*, *TMEM119* (loss of homeostatic identity)
-**[N] DE genes are predicted targets of miR-124-3p**, suggesting that downregulation of this homeostatic microglial miRNA may contribute to disease-associated transcriptional reprogramming
-## Figure Summary
-![Final Analysis Panel](figures/final_panel/Final_Panel_AD_Microglia.png)
-*Figure: (A) UMAP of microglial states; (B) AD vs Control distribution; (C) DAM and homeostatic marker expression; (D) State composition by disease status; (E) Key marker dot plot; (F) Global DE volcano plot.*
 ## Dataset
 | Property | Detail |
 |---|---|
