@@ -40,24 +40,13 @@ Dimensionality Reduction
 Clustering (Louvain, resolution 0.4)
     ↓
 Cell Annotation
-    — Manual annotation based on canonical microglial markers
-    — Homeostatic: P2RY12, CX3CR1, TMEM119, HEXB
-    — DAM: TREM2, APOE, LPL, SPP1, CLEC7A
-    — Inflammatory: IL1B, TNF, CCL2
-    — Proliferating: MKI67, TOP2A
     ↓
 Differential Expression (MAST test, Seurat)
-    — AD vs Control: global and per microglial state
-    — Threshold: adj. p < 0.05, |Log2FC| > 0.25
     ↓
 Pathway Enrichment (clusterProfiler)
-    — GO Biological Process
-    — KEGG Pathways
     ↓
 ncRNA Integration
-    — Cross-referenced DE genes with miR-124-3p,
-      miR-155, and miR-146a predicted targets
-      (miRDB score > 80, TargetScan validated)
+
 ## Repository Structure
 sc_RNA_Project/
 ├── 00_install_packages.R       # Install all dependencies
